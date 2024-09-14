@@ -3,7 +3,7 @@
 </script>
 
 <ColorThemeProvider>
-	<div>
+	<div class="app">
 		<main>
 			<slot />
 		</main>
