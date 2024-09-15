@@ -10,7 +10,7 @@
 	} from 'svelte-elegant';
 
 	//Импорт утилит
-	import { valueExtractors } from 'svelte-elegant/utils/valueExtractors';
+	import { valueExtractors } from 'svelte-elegant/utils'
 
 	//Тестовые данные
 	let value = '';

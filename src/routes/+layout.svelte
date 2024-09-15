@@ -1,11 +1,11 @@
 <script>
-	import { ColorThemeProvider } from 'svelte-elegant';
+	import { ThemeProvider } from 'svelte-elegant';
 </script>
 
-<ColorThemeProvider>
+<ThemeProvider>
 	<div class="app">
 		<main>
 			<slot />
 		</main>
 	</div>
-</ColorThemeProvider>
+</ThemeProvider>
